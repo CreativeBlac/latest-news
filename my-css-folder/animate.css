@@ -1,0 +1,57 @@
+.animation-side-div {
+    position: relative;
+    bottom: 120px;
+}
+
+.SRC {
+    margin-left: 420px;
+    position: relative;
+    object-fit: cover;
+    max-width: 100%;
+    width: 280px;
+    height: 140px;
+    z-index: 1;
+    text-align: left;
+    animation-name: fade-from-right;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+
+@media (max-width:800px) {
+    .SRC {
+        margin-left: 50px;
+        width: 200px;
+        height: 110px;
+    }
+}
+
+@keyframes fade-from-right {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-section-para {
+    animation-name: fadein-left;
+    animation-delay: 2s;
+    animation-duration: 1.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadein-left {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
