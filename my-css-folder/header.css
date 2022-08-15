@@ -300,7 +300,7 @@ hr.solid {
 /*here is the other section */
 
 .section-class-divs {
-    background-image: linear-gradient(rgba(5, 5, 5, 0.75), rgba(5, 5, 5, 0.75)), url('/other-pages/Akamba-696x421-1.webp');
+    background-image: linear-gradient(rgba(5, 5, 5, 0.75), rgba(5, 5, 5, 0.75)), url('other-pages/Akamba-696x421-1.webp');
     background-attachment: fixed;
     background-position-x: 50%;
     background-position-y: 50%;
